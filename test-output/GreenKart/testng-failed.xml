@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [GreenKart]">
+  <test name="Page Object Model Project(failed)">
+    <classes>
+      <class name="testcase.Greenkarttestcase">
+        <methods>
+          <include name="CheckoutProcess"/>
+          <include name="ProductCart"/>
+          <include name="ProductDetail"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testcase.Greenkarttestcase -->
+      <class name="testbase.Testbase">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- testbase.Testbase -->
+    </classes>
+  </test> <!-- Page Object Model Project(failed) -->
+</suite> <!-- Failed suite [GreenKart] -->

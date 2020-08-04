@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="GreenKart" duration-ms="17094" started-at="2020-08-04T13:22:41Z" finished-at="2020-08-04T13:22:59Z">
+    <groups>
+    </groups>
+    <test name="Page Object Model Project" duration-ms="17094" started-at="2020-08-04T13:22:41Z" finished-at="2020-08-04T13:22:59Z">
+      <class name="testbase.Testbase">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testbase.Testbase@12cbfa]" name="initialize" is-config="true" duration-ms="22017" started-at="2020-08-04T18:52:19Z" finished-at="2020-08-04T18:52:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:testbase.Testbase@12cbfa]" name="Teardown" is-config="true" duration-ms="1196" started-at="2020-08-04T18:52:59Z" finished-at="2020-08-04T18:53:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- testbase.Testbase -->
+      <class name="testcase.Greenkarttestcase">
+        <test-method status="PASS" signature="init()[pri:0, instance:testcase.Greenkarttestcase@1b64c45]" name="init" duration-ms="6513" started-at="2020-08-04T18:52:41Z" finished-at="2020-08-04T18:52:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="ProductDetail()[pri:0, instance:testcase.Greenkarttestcase@1b64c45]" name="ProductDetail" duration-ms="4460" started-at="2020-08-04T18:52:48Z" finished-at="2020-08-04T18:52:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductDetail -->
+        <test-method status="PASS" signature="ProductCart()[pri:0, instance:testcase.Greenkarttestcase@1b64c45]" name="ProductCart" duration-ms="5931" started-at="2020-08-04T18:52:52Z" finished-at="2020-08-04T18:52:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductCart -->
+        <test-method status="PASS" signature="CheckoutProcess()[pri:0, instance:testcase.Greenkarttestcase@1b64c45]" name="CheckoutProcess" duration-ms="153" started-at="2020-08-04T18:52:58Z" finished-at="2020-08-04T18:52:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckoutProcess -->
+      </class> <!-- testcase.Greenkarttestcase -->
+    </test> <!-- Page Object Model Project -->
+  </suite> <!-- GreenKart -->
+</testng-results>
